@@ -59,7 +59,7 @@ with col2:
                         prompt = f"Bạn là một copywriter đỉnh cao chuyên viết bài chốt đơn trên Facebook và Zalo. Hãy viết một bài viết bán hàng cực kỳ thu hút cho sản phẩm '{product_name}' thuộc ngành '{category}'. Điểm nổi bật: {usp}. Ưu đãi: {promo}. Bài viết cần có tiêu đề giật tít, icon bắt mắt, chia bố cục rõ ràng và kêu gọi mua hàng mạnh mẽ."
                     
                     response = client.chat.completions.create(
-                        model="gpt-4o-mini",
+                        model="gpt-3.5-turbo",
                         messages=[
                             {"role": "system", "content": "Bạn là trợ lý viết content bán hàng bằng tiếng Việt siêu hay, thực chiến, tập trung vào chuyển đổi đơn hàng."},
                             {"role": "user", "content": prompt}
