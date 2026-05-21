@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Sử dụng trực tiếp chìa khóa API của bạn
-api_key = "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"
+api_key = "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"
 client = OpenAI(api_key=api_key)
 
 # Thiết lập màn hình rộng (Bắt buộc để chia 2 cột)
